@@ -31,11 +31,11 @@ spec:
             - name: LOG_JSON
               value: "false"
             - name: MW_TARGET
-              value: ""
+              value: "MW_TARGET_VALUE"
             - name: MW_API_KEY
-              value: ""
+              value: "MW_API_KEY_VALUE"
             - name: MW_KUBE_CLUSTER_NAME
-              value: "unknown"
+              value: "MW_KUBE_CLUSTER_NAME_VALUE"
           resources:
             limits:
               cpu: 200m

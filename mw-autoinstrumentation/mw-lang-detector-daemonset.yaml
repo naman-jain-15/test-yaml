@@ -20,9 +20,9 @@ spec:
         args: ["start"]
         env:
           - name: MW_TARGET
-            value: "MW_TARGET"
+            value: "MW_TAGET_VALUE"
           - name: MW_API_KEY
-            value: "MW_API_KEY"
+            value: "MW_API_KEY_VALUE"
           - name: MW_KUBE_CLUSTER_NAME
             value: "MW_KUBE_CLUSTER_NAME_VALUE"
           - name: K8S_NODE_NAME
