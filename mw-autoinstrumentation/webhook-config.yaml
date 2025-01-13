@@ -10,7 +10,7 @@ webhooks:
       matchExpressions:
         - key: kubernetes.io/metadata.name
           operator: "MW_OPERATOR"
-          values: ["NAMESPACES"]
+          values: ["NAMESPACE_LIST_VALUE"]
     failurePolicy: Ignore
     rules:
       - apiGroups: ["apps"]
